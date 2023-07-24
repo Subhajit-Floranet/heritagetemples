@@ -65,8 +65,7 @@
                         <ul class="collapse">
                             <li><a href="{{url('/addtemple  ')}}">Add Tample</a></li>
                             <li><a href="{{url('/AddTempleImage')}}">Add Temple info</a></li>
-                            <li><a href="">Close</a></li>
-                            <li><a href="">All</a></li>
+                            <li><a href="{{url('/alltemple')}}">All Temple</a></li>
                         </ul>
                         </li>
                         <li><a href=""><i class="ti-map-alt"></i> <span>User Creation</span></a></li>
