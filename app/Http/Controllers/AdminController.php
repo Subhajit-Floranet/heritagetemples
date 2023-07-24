@@ -65,20 +65,11 @@ class AdminController extends Controller
 
     public function SaveTempleImage(Request $request){
         if(Auth::check()){
-            $picture = $request['image'];
-            // $i=0;
-            // for($i=0;){
-            //     return $pic;
-            //     $i++;
-            // }
-            // for($i=0;$i<=count($picture);$i++){
-            //     return $i;
-            // }
-            // $name = time()."heritage.".$request->file($pic)->getClientOriginalExtension();
-            // $path = $request->file('image')->storeAs('uploading',$name);
+            return $name = $request['image'];
+            $path = $request->file('image')->storeAs('uploading',$name);
             $data = new TempleImage;
             $data -> temple_id = $request['temple_select'];
-            $data -> image_name = json_encode($request['image']);
+            $data -> image_name = $name;
             $data -> image_desc = json_encode($request['desc']);
             $data -> temple_banner = json_encode($request['banner_image']);
             $data->save();
