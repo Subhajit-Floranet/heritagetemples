@@ -14,7 +14,7 @@
       </div>
       <div class="col-lg-6 col-md-12 col-sm-12"data-aos="fade-left"data-aos-duration="2000">
         <div class="abt-txt">
-          <p class="abt-sub">About Us</p>
+          <p class="abt-sub">About </p>
           <div class="brdr">
             <div>
             <h2 class="abt-hdng">
